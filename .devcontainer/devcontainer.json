@@ -17,6 +17,9 @@
       "label": "Komodo"
     }
   },
-  "postStartCommand": "./scripts/start-komodo"
+  "postStartCommand": "./scripts/start-komodo",
+  "runArgs": [
+  "--network=host"
+]
 }
 
